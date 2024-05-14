@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.serverlessjavapoc.serverlessapi.ServerlessapiApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-13T09:30:08" hostname="TL283" time="0.6">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.serverlessjavapoc.serverlessapi.ServerlessapiApplicationTests" time="0.6"/>
+  <system-out><![CDATA[15:00:06.973 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.serverlessjavapoc.serverlessapi.ServerlessapiApplicationTests]: ServerlessapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:00:07.045 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.serverlessjavapoc.serverlessapi.ServerlessapiApplication for test class com.serverlessjavapoc.serverlessapi.ServerlessapiApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2024-05-13T15:00:07.338+05:30  INFO 16925 --- [serverlessapi] [    Test worker] c.s.s.ServerlessapiApplicationTests      : Starting ServerlessapiApplicationTests using Java 17.0.10 with PID 16925 (started by tricon in /home/tricon/Desktop/serverless-demo)
+2024-05-13T15:00:07.339+05:30  INFO 16925 --- [serverlessapi] [    Test worker] c.s.s.ServerlessapiApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-05-13T15:00:08.162+05:30  INFO 16925 --- [serverlessapi] [    Test worker] c.s.s.ServerlessapiApplicationTests      : Started ServerlessapiApplicationTests in 1.014 seconds (process running for 1.856)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

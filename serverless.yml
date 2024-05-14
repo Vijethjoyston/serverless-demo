@@ -1,0 +1,16 @@
+service: serverless-demo
+
+provider:
+  name: aws
+  runtime: java17
+  region: eu-north-1
+
+package:
+  artifact: build/libs/serverlessapi-0.0.1.jar
+
+functions:
+  currentTime:
+    handler: com.serverlessjavapoc.serverlessapi.LambdaHandler
+    events:
+      - eventBridge:
+        schedule: cron(0 12 * * ? *)
